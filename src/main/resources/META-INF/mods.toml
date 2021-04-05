@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+[[mods]]
+modId="pugzmod"
+version="1.0"
+displayName="PugChamp"
+logoFile="examplemod.png"
+credits="PugzAreCute for making the models & textures PugzAreCute #4636"
+authors="MorePugsMod"
+description='''
+PugChamp adds new pugs into minecraft! which you can tame and make your own pet!
+'''
+
+[[dependencies.pugzmod]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.pugzmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
